@@ -1,0 +1,116 @@
+html {
+box-sizing: border-box;
+}
+
+*{
+box-sizing: inherit;
+margin:0px;
+padding: 0px;
+border: 1px solid black;
+}
+
+body {
+font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+background-color: #FB8B24;
+margin:0px;
+padding: 10px 10px 10px 30px;
+}
+
+nav h1{
+font-size: 45px;
+}
+
+.logo {
+display: inline-block;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+font-size: 20px;
+}
+
+.nav-item a {
+display: inline-block;
+padding: 10px 15px;
+color: rgb(0, 0, 0);
+}
+
+.nav-item:hover {
+background-color: white;
+}
+
+.nav-item:hover a {
+
+}
+
+.logo img {
+width: 175px;
+vertical-align: middle;
+}
+
+header{
+padding-top: 2%;
+padding-bottom: 2%;
+text-align: center;
+}
+
+header h1{
+font-size: 50px;
+}
+
+/* feature lane section  */
+.lane-feature {
+display: flex;
+justify-content: space-between;
+overflow-x: auto;
+gap: 30px;
+height: 100%;
+}
+
+.feature-item {
+  min-width: 300px;
+}
+
+.feature-item img{
+max-width: 100%;
+display: block;
+}
+
+/* insert something here that'll
+make the text stick to the bot
+of the div, jic the images don't 
+have equal heights.. */
+
+/* main part */
+
+main{
+padding: 0% 2% 0% 2%;
+align-self: center;
+}
+
+.shop-catalog{
+  display:grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap: 30px;
+}
+.catalog-item-text{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+footer{
+text-align:center;
+}
