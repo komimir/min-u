@@ -1,0 +1,173 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *{
+    font-family: "Raleway";
+    box-sizing: inherit;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: sans-serif;
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FB8B24;
+    width: 100%;
+    margin:0px;
+    padding: 10px 10px 10px 30px;
+  }
+  
+  nav h1{
+    font-size: 45px;
+    font-family: "Short stack";
+  }
+
+  .logo {
+    display: inline-block;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .logo img {
+    width: 175px;
+    vertical-align: middle;
+  }
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .dropdown {
+    display: none; /* Initially hide the dropdown content */
+    position: absolute; /* Place the dropdown below the parent item */
+    background-color: #fff; /* Adjust this to your desired dropdown background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    padding: 5px;
+    z-index: 1; /* Place the dropdown above other elements */
+  }
+
+  .dropdown-content{
+    list-style-type: none;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #333; /* Adjust this to your desired sub-link color */
+  }
+  
+  .dropdown-content a:hover {
+    color: #777; /* Adjust this to your desired sub-link hover color */
+  }
+  
+  /* Show the dropdown content on hover */
+  .nav-item:hover .dropdown {
+    display: block;
+  }
+
+  header{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+
+  header h1{
+    font-size: 55px;
+  }
+
+  main{
+    padding: 0% 2% 0% 2%;
+    align-self: center;
+  }
+
+  main h3{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  main p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  #slogan{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  article{
+    margin:8% 3% 8% 3%;
+    box-shadow: 0 0 12px 7px #ffcb9a;
+    background-color: #ffcb9a;
+    border-radius: 12px;
+  }
+
+  .text-less-impt p{
+    font-size: 15px;
+  }
+
+  .text-less-impt h3{
+    font-weight: light;
+  }
+
+  #maintext{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #subtext{
+    font-size: 18px;
+  }
+
+  #unique h3{
+    font-size: 30px;
+  }
+
+  #unique{
+    text-align: center;
+  }
+
+  #contact{
+    padding-top: 2%;
+  }
+
+  #contact h4{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  footer{
+    padding-top: 3%;
+    text-align:center;
+  }
