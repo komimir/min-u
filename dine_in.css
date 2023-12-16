@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *{
+    box-sizing: inherit;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: sans-serif;
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #FB8B24;
+    margin:0px;
+    padding: 10px 10px 10px 30px;
+  }
+  
+  nav h1{
+    font-size: 45px;
+  }
+
+  nav p{
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+  }
+  .logo {
+    display: inline-block;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .nav-item:hover {
+    background-color: white;
+  }
+  
+  .nav-item:hover a {
+    
+  }
+  
+  .logo img {
+    width: 175px;
+    vertical-align: middle;
+  }
+
+  main{
+    padding: 0% 2% 0% 2%;
+    align-self: center;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header-container img {
+    width: 200px; /* Increase the size of the first image */
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .header-container h1 {
+    margin: 0;
+  }
+
+  .location {
+    font-weight: bold;
+  }
+
+  .article-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .article-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a border to make the images visually appealing */
+    border-radius: 8px; /* Add border radius for a rounded appearance */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+
+  .article-container img:hover {
+    transform: scale(1.1); /* Increase size on hover for a visual effect */
+  }
+
+  .map {
+    padding-bottom: 50%;
+    position: relative;
+  }
+
+  .map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+   }
