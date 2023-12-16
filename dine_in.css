@@ -66,53 +66,65 @@ html {
     align-self: center;
   }
 
-  .header-container {
+  .shopname-container {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
 
-  .header-container img {
-    width: 200px; /* Increase the size of the first image */
+  .shopname-container img {
+    width: 50%;
     height: auto;
     margin-right: 20px;
   }
 
-  .header-container h1 {
-    margin: 0;
+  .shopname-container h1 {
+    margin: 0
   }
 
-  .location {
-    font-weight: bold;
+  .shopname-container p{
+    margin-top: 10%;
+    margin-right: 60px;
   }
 
-  .article-container {
+  .shopname-container ul{
+    margin-left: 30px;
+  }
+
+  .photos-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
+    margin-bottom: 20%;
+    justify-content: center;
+  } 
 
-  .article-container img {
-    max-width: 100%;
+  .photos-container img {
+    max-width: 80%;
     height: auto;
     border: 1px solid #ddd; /* Add a border to make the images visually appealing */
     border-radius: 8px; /* Add border radius for a rounded appearance */
     transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
   }
 
-  .article-container img:hover {
+  .photos-container img:hover {
     transform: scale(1.1); /* Increase size on hover for a visual effect */
   }
 
   .map {
+    padding-top: 50%;
     padding-bottom: 50%;
     position: relative;
   }
 
   .map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
+    height: 70%;
+    width: 70%;
+    left: 15%;
     top: 0;
     position: absolute;
+   }
+   
+   footer p{
+    text-align: center;
    }
