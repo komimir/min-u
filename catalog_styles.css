@@ -94,22 +94,24 @@ of the div, jic the images don't
 have equal heights.. */
 
 /* main part */
-
-main{
-padding: 0% 2% 0% 2%;
-align-self: center;
+@media (min-width: 600px){
+  main{
+    margin: 
+    align-self: center;
+    }
+    
+    .shop-catalog{
+      display:grid;
+      grid-template-columns: repeat(3,auto);
+      grid-gap: 30px;
+    }
+    .catalog-item-text{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
 }
 
-.shop-catalog{
-  display:grid;
-  grid-template-columns: repeat(3,auto);
-  grid-gap: 30px;
-}
-.catalog-item-text{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
 
 footer{
 text-align:center;
