@@ -1,5 +1,6 @@
 should contain:
 > images folder
+
 html files: 
 - home.html
 - about.html
