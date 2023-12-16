@@ -1,7 +1,8 @@
 should contain:
 > images folder
-> webpages
-  > home.html
-  > about.html
-  > catalog page (one per establishment type)
-  > shop info page
+html files: 
+- home.html
+- about.html
+- catalog template per category
+- individual shop template
+and ofc respective css
