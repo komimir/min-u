@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
   }
-  
+
   *{
     box-sizing: inherit;
     margin:0px;
@@ -12,6 +12,86 @@ html {
   body {
     font-family: sans-serif;
     }
+    body > *:not(nav) {
+      margin: 30px;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #FB8B24;
+      margin: 0;
+      width: 100%;
+      padding: 10px 30px 10px 30px;
+    }
+    
+    nav p{
+      padding-left:15px;
+      padding-right:15px;
+      text-align: center;
+      word-spacing: 10px;
+      letter-spacing: 2px;
+    }
+    
+    #nav-logo {
+      max-height:60px;
+      padding: 0;
+      display: inline-block;
+    }
+    
+    .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    }
+    
+    .nav-item a {
+      display: inline-block;
+      padding:15px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav-item {
+      margin: 5px;
+      display: inline-block;
+    }
+    
+    .dropdown {
+      display: none;
+      position: absolute; 
+      background-color: #fff; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+      padding: 5px;
+      z-index: 1; 
+    }
+  
+    .dropdown-content{
+      list-style-type: none;
+    }
+    .dropdown-content a {
+      display: block;
+      color: #333;
+    }
+    
+    .dropdown-content a:hover {
+      color: #777;
+    }
+
+    .nav-item:hover .dropdown {
+      display: block;
+    }
+  
   
   nav {
     display: flex;
@@ -162,35 +242,41 @@ html {
     display: block;
   }
 
-  #catalog{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .catalog-container{
+.catalog-container {
+  flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .rectangle{
-    position:relative;
-    width: 800px;
-    height: 150px;
-    overflow: hidden;
-    margin: 10px;
-    border: 2px solid #333
-  }
+  max-width: 100%; 
+}
 
-  .catalog-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+.rectangle {
+  box-shadow: 5px 10px 10px grey;
+  position: relative;
+  margin: 10px;
+  width: 100%;
+}
+
+.catalog-image {
+  width: 100%;
+  height: 200px; 
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .catalog-image {
+    position: relative;
     transition: opacity 0.3 ease-in-out;
+    height: 75px;
+  }
+}
+
+  #catalog{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .catalog-text{
@@ -198,7 +284,8 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px black;
     text-align: center;
     font-size: 30px;
     transition: opacity 0.3 ease-in-out;
