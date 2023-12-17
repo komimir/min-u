@@ -3,10 +3,10 @@ html {
   }
   
   *{
-    font-family:'Raleway';
     box-sizing: inherit;
     margin:0px;
     padding: 0px;
+    color: #241c14;
   }
   
   body {
@@ -84,35 +84,47 @@ html {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-  }
-  main{
-    padding: 0% 2% 0% 2%;
-    align-self: center;
-  }
-
-  header {
     display: inline-block;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+  
+
+  main{
+    padding: 0% 2% 0% 2%;
+    align-self: center;
   }
 
   header h1{
     margin: 50px;
     text-align: center;
     font-size: 100px;
+    font-family: 'La Belle Aurore', cursive;
   }
 
   header h3{
     margin: 10px;
     padding-top: 30px;
-    font-size: 30px
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
   }
 
-  header p{
+  header p, a{
     text-align: center;
     letter-spacing: 1px;
+    font-family: 'Afacad', sans-serif;
+    display: inline;
   }
 
+  header a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    text-decoration: underline;
+  }
+  
   main hr, p{
     display: block;
     width: 100%;
