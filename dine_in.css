@@ -96,7 +96,7 @@ html {
     }
   
 
-  main{
+  main > *:not(.tabcontent){
     padding: 0% 2% 0% 2%;
     align-self: center;
   }
@@ -114,7 +114,7 @@ html {
   }
 
   .shopname-container h1 {
-    margin: 0
+    margin: 0;
   }
 
   .shopname-container p{
@@ -140,7 +140,6 @@ html {
     position: relative;
     flex-shrink: 0;
     margin:0px;
-
   }
   
   .image-text {
