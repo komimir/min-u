@@ -174,7 +174,7 @@ have equal heights.. */
       justify-content: space-evenly;
     }
     .catalog-item{
-      border:1px solid black;
+      box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
       padding: 10px;
     }
