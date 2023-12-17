@@ -3,6 +3,7 @@ html {
   }
   
   *{
+    font-family:'Raleway';
     box-sizing: inherit;
     margin:0px;
     padding: 0px;
@@ -79,15 +80,11 @@ html {
   }
 
   header{
+    margin:3%;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
   }
-
-  header h1{
-    font-size: 50px;
-  }
-
   main{
     padding: 0% 2% 0% 2%;
     align-self: center;
@@ -101,10 +98,8 @@ html {
 
   header h1{
     margin: 50px;
-    padding-left: 50px;
-    padding-right: 300px;
+    text-align: center;
     font-size: 100px;
-    float: left;
   }
 
   header h3{
@@ -114,7 +109,7 @@ html {
   }
 
   header p{
-    text-align: justify;
+    text-align: center;
     letter-spacing: 1px;
   }
 
