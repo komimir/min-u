@@ -3,11 +3,9 @@ html {
 }
 
 *{
-  font-family:'Raleway';
   box-sizing: inherit;
   margin:0px;
   padding: 0px;
-  border:1px solid black;
 }
 
 body {
@@ -102,12 +100,14 @@ padding-bottom: 2%;
 text-align: center;
 }
 
-header h1{
-font-size: 50px;
+img{
+  border-radius: 8px;
 }
 
 /* feature lane section  */
 .lane-feature {
+border-top: 1px solid black;
+padding: 20px;
 display: flex;
 justify-content: space-between;
 overflow-x: auto;
@@ -115,13 +115,36 @@ gap: 30px;
 height: 100%;
 }
 
+h1{
+  color: #FB8B24;
+  font-family: 'Quicksand', sans-serif;
+}
 .feature-item {
   min-width: 300px;
+}
+
+.feature-item-text {
+  text-align: center;
 }
 
 .feature-item img{
 max-width: 100%;
 display: block;
+}
+        
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  border: 1px solid #cacaca;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #363636;
 }
 
 /* insert something here that'll
@@ -130,25 +153,64 @@ of the div, jic the images don't
 have equal heights.. */
 
 /* main part */
-@media (min-width: 600px){
+@media (min-width: 400px){
   main{
     margin: ;
     align-self: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
     }
     
     .shop-catalog{
-      display:grid;
+      display:grid; 
       grid-template-columns: repeat(3,auto);
       grid-gap: 30px;
     }
     .catalog-item-text{
       display:flex;
+      flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-evenly;
     }
+    .catalog-item{
+      border:1px solid black;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    
 }
 
+.catalog-item img{
+  max-width: 100%;
+}
 
+.lane-nav-home-catalog {
+  display: flex;
+  align-items: center;
+  font-family: 'Afacad', sans-serif;
+  font-size: 20px;
+}
+
+.lane-nav-home-catalog a, .separator{
+  margin-bottom: 10px;
+  padding: 0px 5px;
+}
+.lane-nav-home-catalog a{
+  color:#FB8B24;
+  text-decoration: none;
+}
+.separator { /* Adjust the spacing between the links */
+  flex:0;
+}
+
+section p, main p{
+  font-family: 'Afacad', sans-serif;
+}
+section h3, main h3{
+  font-family: 'Quicksand', sans-serif;
+}
 footer{
 text-align:center;
 }
