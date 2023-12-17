@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
   }
-  
+
   *{
     font-family:'Raleway';
     box-sizing: inherit;
@@ -12,18 +12,23 @@ html {
   body {
     font-family: sans-serif;
     }
-  
+    body > *:not(nav) {
+      margin: 30px;
+    }
+    
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       background-color: #FB8B24;
+      margin: 0;
       width: 100%;
-      margin:0px;
-      padding: 10px 10px 10px 30px;
+      padding: 10px 30px 10px 30px;
     }
     
     nav p{
+      padding-left:15px;
+      padding-right:15px;
       text-align: center;
       word-spacing: 10px;
       letter-spacing: 2px;
@@ -43,7 +48,7 @@ html {
     
     .nav-item a {
       display: inline-block;
-      padding: 10px 15px;
+      padding:15px;
       text-decoration: none;
       color: rgb(0, 0, 0);
     }
