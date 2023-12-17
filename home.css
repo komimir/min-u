@@ -66,12 +66,12 @@ html {
     }
     
     .dropdown {
-      display: none; /* Initially hide the dropdown content */
-      position: absolute; /* Place the dropdown below the parent item */
-      background-color: #fff; /* Adjust this to your desired dropdown background color */
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      display: none;
+      position: absolute; 
+      background-color: #fff; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
       padding: 5px;
-      z-index: 1; /* Place the dropdown above other elements */
+      z-index: 1; 
     }
   
     .dropdown-content{
@@ -79,14 +79,13 @@ html {
     }
     .dropdown-content a {
       display: block;
-      color: #333; /* Adjust this to your desired sub-link color */
+      color: #333;
     }
     
     .dropdown-content a:hover {
-      color: #777; /* Adjust this to your desired sub-link hover color */
+      color: #777;
     }
-    
-    /* Show the dropdown content on hover */
+
     .nav-item:hover .dropdown {
       display: block;
     }
