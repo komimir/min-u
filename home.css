@@ -3,10 +3,10 @@ html {
   }
   
   *{
-    font-family:'Raleway';
     box-sizing: inherit;
     margin:0px;
     padding: 0px;
+    color: #241c14;
   }
   
   body {
@@ -18,15 +18,21 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #FB8B24;
+    background-color: #FEB039;
     margin:0px;
     padding: 10px 10px 10px 30px;
   }
   
-  nav p{
+  nav p, #filler-lane{
     text-align: center;
     word-spacing: 10px;
     letter-spacing: 2px;
+    font-family: 'Afacad', sans-serif;
+    color: #8d5103;
+  }
+
+  #filler-lane{
+    color: #241c14;
   }
   
   #nav-logo {
@@ -40,16 +46,19 @@ html {
   display: flex;
   font-size: 18px;
   }
-  
+
   .nav-item a {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #8C1D02;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .nav-item:hover {
-    background-color: white;
+    border-left: 3px solid #8C1D02;
+    margin-left: -3px; 
   }
 
 /* dropdown css */
@@ -84,35 +93,47 @@ html {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-  }
-  main{
-    padding: 0% 2% 0% 2%;
-    align-self: center;
-  }
-
-  header {
     display: inline-block;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+  
+
+  main{
+    padding: 0% 2% 0% 2%;
+    align-self: center;
   }
 
   header h1{
     margin: 50px;
     text-align: center;
     font-size: 100px;
+    font-family: 'La Belle Aurore', cursive;
   }
 
   header h3{
     margin: 10px;
     padding-top: 30px;
-    font-size: 30px
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
   }
 
-  header p{
+  header p, a{
     text-align: center;
     letter-spacing: 1px;
+    font-family: 'Afacad', sans-serif;
+    display: inline;
   }
 
+  header a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    text-decoration: underline;
+  }
+  
   main hr, p{
     display: block;
     width: 100%;
