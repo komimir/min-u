@@ -179,7 +179,7 @@ html {
   .catalog-image {
     position: relative;
     transition: opacity 0.3 ease-in-out;
-    height: 100px;
+    height: 75px;
   }
 }
 
