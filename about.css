@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
   }
-/*this is a comment*/
   *{
     font-family: "Raleway";
     box-sizing: inherit;
@@ -52,10 +51,6 @@ html {
     background-color: rgba(255, 255, 255, 0.5);
   }
   
-  .logo img {
-    width: 175px;
-    vertical-align: middle;
-  }
   .nav-links {
     list-style: none;
     margin: 0;

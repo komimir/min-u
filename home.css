@@ -3,6 +3,7 @@ html {
   }
   
   *{
+    font-family:'Raleway';
     box-sizing: inherit;
     margin:0px;
     padding: 0px;
@@ -50,26 +51,40 @@ html {
   .nav-item:hover {
     background-color: white;
   }
-  
-  .nav-item:hover a {
-    
+
+/* dropdown css */
+  .dropdown {
+    display: none; /* Initially hide the dropdown content */
+    position: absolute; /* Place the dropdown below the parent item */
+    background-color: #fff; /* Adjust this to your desired dropdown background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    padding: 5px;
+    z-index: 1; /* Place the dropdown above other elements */
+  }
+
+  .dropdown-content{
+    list-style-type: none;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #333; /* Adjust this to your desired sub-link color */
   }
   
-  .logo img {
-    width: 175px;
-    vertical-align: middle;
+  .dropdown-content a:hover {
+    color: #777; /* Adjust this to your desired sub-link hover color */
+  }
+  
+  /* Show the dropdown content on hover */
+  .nav-item:hover .dropdown {
+    display: block;
   }
 
   header{
+    margin:3%;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
   }
-
-  header h1{
-    font-size: 50px;
-  }
-
   main{
     padding: 0% 2% 0% 2%;
     align-self: center;
@@ -83,10 +98,8 @@ html {
 
   header h1{
     margin: 50px;
-    padding-left: 50px;
-    padding-right: 300px;
+    text-align: center;
     font-size: 100px;
-    float: left;
   }
 
   header h3{
@@ -96,7 +109,7 @@ html {
   }
 
   header p{
-    text-align: justify;
+    text-align: center;
     letter-spacing: 1px;
   }
 
