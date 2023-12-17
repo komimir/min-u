@@ -126,40 +126,31 @@ html {
     margin-left: 30px;
   }
 
-  .flex-container {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    overflow-x: auto;
-  }
-  
-  .image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    flex-shrink: 0;
-    margin:0px;
-  }
-  
-  .image-text {
-    display: block;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .image-container img {
-    max-width: 60%; 
+.flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 20px; 
+}
+
+.image-container {
+    margin-right: 40px; 
+}
+
+.image-container img {
+    max-width: 300px; 
     height: auto;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
+    display: block;
+    margin-bottom: 5px; 
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
-  }
+}
+
+.image-text {
+    display: block;
+    text-align: center;
+    font-size: 14px; /* Adjust text size as needed */
+    color: #333; /* Text color */
+}
   
   .flex-container img:hover {
     transform: scale(1.05);
@@ -185,8 +176,7 @@ html {
    footer p{
     text-align: center;
    }
-/*COPY PASTE FOR TABS START*/
-/* Style the tab */
+
 .tab {
   display: flex;
   justify-content: center;
@@ -196,10 +186,8 @@ html {
   background-color: #f1f1f1;
 }
 
-/* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
@@ -208,28 +196,25 @@ html {
   font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
   background-color: #ccc;
 }
 
-/* Style the tab content */
 .tabcontent {
   animation: fadeEffect 1s;
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  overflow-x: auto;
+    white-space: nowrap;
 }
 
-/* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
 }
-/*COPY PASTE FOR TABS END*/
