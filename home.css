@@ -13,72 +13,84 @@ html {
     font-family: sans-serif;
     }
   
-  nav {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #FB8B24;
+      width: 100%;
+      margin:0px;
+      padding: 10px 10px 10px 30px;
+    }
+    
+    nav p{
+      text-align: center;
+      word-spacing: 10px;
+      letter-spacing: 2px;
+    }
+    
+    #nav-logo {
+      max-height:60px;
+      padding: 0;
+      display: inline-block;
+    }
+    
+    .nav-links {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #FB8B24;
-    margin:0px;
-    padding: 10px 10px 10px 30px;
-  }
+    font-size: 18px;
+    }
+    
+    .nav-item a {
+      display: inline-block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+    
+    .nav-item:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav-item {
+      margin: 5px;
+      display: inline-block;
+    }
+    
+    .dropdown {
+      display: none; /* Initially hide the dropdown content */
+      position: absolute; /* Place the dropdown below the parent item */
+      background-color: #fff; /* Adjust this to your desired dropdown background color */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      padding: 5px;
+      z-index: 1; /* Place the dropdown above other elements */
+    }
   
-  nav p{
-    text-align: center;
-    word-spacing: 10px;
-    letter-spacing: 2px;
-  }
+    .dropdown-content{
+      list-style-type: none;
+    }
+    .dropdown-content a {
+      display: block;
+      color: #333; /* Adjust this to your desired sub-link color */
+    }
+    
+    .dropdown-content a:hover {
+      color: #777; /* Adjust this to your desired sub-link hover color */
+    }
+    
+    /* Show the dropdown content on hover */
+    .nav-item:hover .dropdown {
+      display: block;
+    }
   
-  #nav-logo {
-    max-height:60px;
-    padding: 0;
-    display: inline-block;
-  }
-  
-  .nav-links {
-  list-style: none;
-  display: flex;
-  font-size: 18px;
-  }
-  
-  .nav-item a {
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-  
-  .nav-item:hover {
-    background-color: white;
-  }
-
-/* dropdown css */
-  .dropdown {
-    display: none; /* Initially hide the dropdown content */
-    position: absolute; /* Place the dropdown below the parent item */
-    background-color: #fff; /* Adjust this to your desired dropdown background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    padding: 5px;
-    z-index: 1; /* Place the dropdown above other elements */
-  }
-
-  .dropdown-content{
-    list-style-type: none;
-  }
-  .dropdown-content a {
-    display: block;
-    color: #333; /* Adjust this to your desired sub-link color */
-  }
-  
-  .dropdown-content a:hover {
-    color: #777; /* Adjust this to your desired sub-link hover color */
-  }
-  
-  /* Show the dropdown content on hover */
-  .nav-item:hover .dropdown {
-    display: block;
-  }
-
   header{
     margin:3%;
     padding-top: 2%;
