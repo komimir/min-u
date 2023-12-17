@@ -105,6 +105,7 @@ html {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
   }
 
   .shopname-container img {
@@ -114,16 +115,17 @@ html {
   }
 
   .shopname-container h1 {
-    margin: 0;
+    font-size: 45px;
+    margin:10px;
   }
 
   .shopname-container p{
-    margin-top: 10%;
-    margin-right: 60px;
+    font-size: 20px;
+    margin:10px;
   }
 
   .shopname-container ul{
-    margin-left: 30px;
+    margin-left: 60px;
   }
 
 .flex-container {
@@ -148,8 +150,8 @@ html {
 .image-text {
     display: block;
     text-align: center;
-    font-size: 14px; /* Adjust text size as needed */
-    color: #333; /* Text color */
+    font-size: 18px; 
+    color: #333; 
 }
   
   .flex-container img:hover {
