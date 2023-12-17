@@ -131,6 +131,7 @@ html {
     padding-top: 20px;
     padding-bottom: 20px;
     overflow-x: auto;
+    
   }
   
   .image-container {
@@ -139,7 +140,7 @@ html {
     align-items: center;
     position: relative;
     flex-shrink: 0;
-    margin:0px;
+    margin:0px -70px 0px -70px;
   }
   
   .image-text {
