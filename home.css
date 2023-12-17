@@ -7,7 +7,6 @@ html {
     margin:0px;
     padding: 0px;
     color: #241c14;
-    /* border: 3px solid black; */
   }
   
   body {
@@ -21,20 +20,25 @@ html {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #FB8B24;
       margin: 0;
       width: 100%;
       padding: 10px 30px 10px 30px;
     }
     
-    nav p{
+    nav p, #filler-lane{
       padding-left:15px;
       padding-right:15px;
       text-align: center;
       word-spacing: 10px;
       letter-spacing: 2px;
+      color: #9E5D33;
+      font-family: 'Quicksand', sans-serif;
     }
     
+    #filler-lane{
+      color: #241c14;
+    }
+
     #nav-logo {
       max-height:60px;
       padding: 0;
@@ -124,11 +128,13 @@ html {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #8C1D02;
   }
   
   .nav-item:hover {
-    background-color: white;
+    border-left: 3px solid #8C1D02;
   }
 
 /* dropdown css */
