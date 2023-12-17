@@ -128,41 +128,59 @@ html {
 
   .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    gap:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow-x: auto;
   }
   
-  .flex-container img {
-    max-width: 80%;
-    height: auto;
-    width: calc(50% - 10px);
-    box-sizing: border-box;
-    border: 1px solid #ddd; 
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out; 
-  }
-
-  .photos-container {
-    margin-bottom: 20%;
-    justify-content: center;
-  } 
-
-  .photos-container img:hover {
-    transform: scale(1.1); /* Increase size on hover for a visual effect */
-  }
-
-  #Map {
-    padding-top: 50%;
-    padding-bottom: 50%;
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
+    flex-shrink: 0;
+    margin:0px;
+
+  }
+  
+  .image-text {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container img {
+    max-width: 60%; 
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .flex-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  #Map {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    text-align: center;
   }
 
   #Map iframe {
-    height: 70%;
-    width: 70%;
-    left: 15%;
-    top: 0;
+    display: inline-block;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
    }
    
    footer p{
@@ -171,6 +189,9 @@ html {
 /*COPY PASTE FOR TABS START*/
 /* Style the tab */
 .tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
