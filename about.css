@@ -129,8 +129,12 @@ html {
     box-shadow: 0 0 12px 7px #ffcb9a;
     background-color: #ffcb9a;
     border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
   }
 
+  article:hover{
+    transform: scale(1.05);
+  }
   .text-less-impt p{
     font-size: 15px;
   }
