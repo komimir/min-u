@@ -151,13 +151,13 @@ html {
     transform: scale(1.1); /* Increase size on hover for a visual effect */
   }
 
-  .map {
+  #Map {
     padding-top: 50%;
     padding-bottom: 50%;
     position: relative;
   }
 
-  .map iframe {
+  #Map iframe {
     height: 70%;
     width: 70%;
     left: 15%;
