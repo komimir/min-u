@@ -119,6 +119,11 @@ main{
   align-self: center;
 }
 
+#slogan{
+  letter-spacing:  2px;
+  font: 700 20px 'Afacad', sans-serif;
+  text-transform: uppercase;
+}
 header h1{
   margin: 50px;
   text-align: center;
