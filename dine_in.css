@@ -9,11 +9,11 @@ html {
   }
   
   body > :not(nav):not(footer) {
-    margin: 30px; /* Reset margin for all direct children of body except nav and footer */
+    margin: 30px; 
   }
   
   nav *, footer * {
-    margin: 0; /* Reset margin for all descendants of nav and footer */
+    margin: 0; 
   }
   nav {
     display: flex;
