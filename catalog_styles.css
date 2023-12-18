@@ -109,7 +109,7 @@ img{
 /* feature lane section  */
 .lane-feature {
 border-top: 1px solid black;
-padding: 20px;
+padding: 40px;
 display: flex;
 justify-content: space-between;
 overflow-x: auto;
@@ -122,10 +122,22 @@ h1{
   font-family: 'Quicksand', sans-serif;
 }
 .feature-item {
+  box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
+  padding: 10px;
   min-width: 300px;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.feature-item:hover {
+  transform: scale(1.04);
+}
+.feature-item a{
+  text-decoration: none;
 }
 
 .feature-item-text {
+  color:black;
   text-align: center;
 }
 
@@ -151,6 +163,7 @@ have equal heights.. */
     }
     
     .shop-catalog{
+      padding: 20px;
       display:grid; 
       grid-template-columns: repeat(3,auto);
       grid-gap: 30px;
@@ -162,9 +175,17 @@ have equal heights.. */
       justify-content: space-evenly;
     }
     .catalog-item{
-      box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
       padding: 10px;
+      transition: 0.2s;
+    }
+    .catalog-item:hover{
+      transform:scale(1.05);
+    }
+    .catalog-item a{
+      text-decoration: none;
+      color:black;
     }
 
     
