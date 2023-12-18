@@ -27,7 +27,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FEB039;
   margin: 0;
   width: 100%;
   padding: 10px 30px 10px 30px;
@@ -73,14 +72,19 @@ nav p, #filler-lane{
   color: #8C1D02;
   border: 2px solid transparent;
   border-radius: 15px;
-  transition: background 0.75s ease;
-    
+  transition: background 0.2s ease-out;
   
   &:hover {
     border: 2px solid transparent;  
     background-color:#ffc978;
     
   }
+}
+
+#here {
+  pointer-events: none;
+  color: #8C1D02;
+  border: 
 }
 
 .dropdown {
