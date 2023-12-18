@@ -177,7 +177,6 @@ html {
       
       .shop-catalog{
         justify-content: center;
-        
         display:flex; 
         flex-wrap: wrap;
         gap:20px;
