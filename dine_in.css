@@ -3,7 +3,6 @@ html {
   }
 
   *{
-    font-family:'Raleway';
     box-sizing: inherit;
     margin:0px;
     padding: 0px;
@@ -16,85 +15,91 @@ html {
       margin: 30px;
     }
     
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #FB8B24;
-      margin: 0;
-      width: 100%;
-      padding: 10px 30px 10px 30px;
-    }
-    
-    nav p{
-      padding-left:15px;
-      padding-right:15px;
-      text-align: center;
-      word-spacing: 10px;
-      letter-spacing: 2px;
-    }
-    
-    #nav-logo {
-      max-height:60px;
-      padding: 0;
-      display: inline-block;
-    }
-    
-    .nav-links {
-    list-style: none;
+  nav {
     display: flex;
-    font-size: 18px;
-    }
-    
-    .nav-item a {
-      display: inline-block;
-      padding:15px;
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-    }
-    
-    .nav-item:hover {
-      background-color: rgba(255, 255, 255, 0.5);
-    }
-    
-    .nav-links {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-    }
-    
-    .nav-item {
-      margin: 5px;
-      display: inline-block;
-    }
-    
-    .dropdown {
-      display: none;
-      position: absolute; 
-      background-color: #fff; 
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-      padding: 5px;
-      z-index: 1; 
-    }
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEB039;
+    margin: 0;
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+  }
   
-    .dropdown-content{
-      list-style-type: none;
-    }
-    .dropdown-content a {
-      display: block;
-      color: #333;
-    }
-    
-    .dropdown-content a:hover {
-      color: #777;
-    }
-
-    .nav-item:hover .dropdown {
-      display: block;
-    }
+  nav p, #filler-lane{
+    padding-left:15px;
+    padding-right:15px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    color: #9E5D33;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+  }
   
+  #filler-lane{
+    color: #241c14;
+    font-weight: 400;
+  }
+  
+  #nav-logo {
+    max-height:60px;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item a{
+    margin: 2px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font: bold 18px 'Montserrat', sans-serif;
+    color: #8C1D02;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: background 0.75s ease;
+      
+    
+    &:hover {
+      border: 2px solid transparent;  
+      background-color:#ffc978;
+      
+    }
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 5px;
+    z-index: 1; 
+  }
+  
+  .dropdown-content{
+    list-style-type: none;
+  }
+  .dropdown-content a {
+    display: block;
+    font-weight: 500;
+    color: #241c14;
+  }
+  
+  .dropdown-content a:hover {
+    font-weight: bold;
+  }
+  
+  .nav-item:hover .dropdown {
+    display: block;
+  }
 
   main > *:not(.tabcontent){
     padding: 0% 2% 0% 2%;
@@ -115,6 +120,7 @@ html {
   }
 
   .shopname-container h1 {
+    font-family: 'Quicksand', sans-serif;
     font-size: 45px;
     margin:10px;
   }
