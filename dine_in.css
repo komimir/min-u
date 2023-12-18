@@ -126,11 +126,14 @@ html {
   }
 
   .shopname-container p{
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     margin:10px;
   }
 
   .shopname-container ul{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
     margin-left: 60px;
   }
 
@@ -154,9 +157,9 @@ html {
 }
 
 .image-text {
+    font: 600 18px 'Quicksand', sans-serif;
     display: block;
     text-align: center;
-    font-size: 18px; 
     color: #333; 
 }
   
@@ -182,6 +185,7 @@ html {
    }
    
    footer p{
+    font: 15px 'Quicksand', sans-serif;
     text-align: center;
    }
 
@@ -195,6 +199,7 @@ html {
 }
 
 .tab button {
+  font: 600 17px 'Montserrat', sans-serif;
   background-color: inherit;
   border: none;
   outline: none;
@@ -219,7 +224,7 @@ html {
   border: 1px solid #ccc;
   border-top: none;
   overflow-x: auto;
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 @keyframes fadeEffect {
