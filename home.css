@@ -208,6 +208,9 @@ main hr, p{
       border-radius: 12px;
   }
 
+  .image a{
+    text-decoration: none;
+  }
 .image img{
   border-radius: 12px;
   max-width: 100%;
