@@ -196,19 +196,21 @@ header a:hover{
   height: 100%;
   }
 
-
   .content p{
+    
     font: 500 15px 'Quicksand', sans-serif;
   }
   .content p b{
+    
     font-size: 18px;
   }
 .image {
   box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
-      min-width: 200px;
-      border-radius: 12px;
-      transition: 0.2s;
-  }
+  min-width: 200px;
+  border-radius: 12px;
+  transition: 0.2s;
+  padding: 10px;
+}
 .image:hover{
   transform: scale(1.05);
 }
@@ -299,8 +301,8 @@ header a:hover{
 footer{
   text-align:center;
   font-size: 18px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   font-family: 'Afacad', sans-serif;
   background-color: #FEB039;
 }
