@@ -121,6 +121,11 @@ main{
   align-self: center;
 }
 
+#slogan{
+  letter-spacing:  2px;
+  font: 700 20px 'Afacad', sans-serif;
+  text-transform: uppercase;
+}
 header h1{
   margin: 50px;
   text-align: center;
@@ -210,6 +215,7 @@ main h2{
 }
 
 .catalog-image{
+  transition: 0.2s;
   position: absolute;
   top: 0;
   left: 0;
