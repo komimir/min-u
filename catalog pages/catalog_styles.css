@@ -25,7 +25,10 @@ html {
       padding: 10px 30px 10px 30px;
       display: flex;
     }
-    
+    a{
+        text-decoration: none;
+        color:black;
+    }
     nav p{
       padding-left:15px;
       padding-right:15px;
@@ -123,9 +126,11 @@ html {
   }
   .feature-item {
     box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    min-width: 300px;
+    padding: 20px;
+    min-width: 200px;
     transition: 0.2s;
+    text-decoration: none;
+    color:black;
     border-radius: 8px;
   }
   
@@ -137,11 +142,19 @@ html {
   }
   
   .feature-item-text {
+    padding-top: 10px;
+    color:black;
+    text-align: center;
+  }
+
+  .feature-item-text p{
+    font-family: 'Quicksand', sans-serif;
     color:black;
     text-align: center;
   }
   
   .feature-item img{
+    border-radius: 8px;
   max-width: 100%;
   display: block;
   }
@@ -168,6 +181,10 @@ html {
         grid-template-columns: repeat(3,auto);
         grid-gap: 30px;
       }
+      .shop-catalog a{
+        text-decoration: none;
+        color:black;
+      }
       .catalog-item-text{
         display:flex;
         flex-direction: column;
@@ -179,13 +196,11 @@ html {
         border-radius: 8px;
         padding: 10px;
         transition: 0.2s;
+        text-decoration: none;
+        color:black;
       }
       .catalog-item:hover{
         transform:scale(1.05);
-      }
-      .catalog-item a{
-        text-decoration: none;
-        color:black;
       }
   
       
@@ -206,9 +221,13 @@ html {
     margin-bottom: 10px;
     padding: 0px 5px;
   }
+
   .lane-nav-home-catalog a{
     color:#FB8B24;
     text-decoration: none;
+  }
+  .lane-nav-home-catalog a:hover{
+    text-decoration: underline;
   }
   .separator { 
     flex:0;
