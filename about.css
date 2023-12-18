@@ -110,6 +110,7 @@ html {
     font:700 80px 'Afacad', sans-serif;
     color:#ffffff;
     text-shadow: 2px 2px 25px rgb(0, 0, 0);
+    padding: 20px;
   }
 
   main{
