@@ -132,9 +132,10 @@ html {
   }
 
   .shopname-container ul{
+    list-style-type: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
-    margin-left: 60px;
+    margin-left: 45px;
   }
 
 .flex-container {
