@@ -127,9 +127,9 @@ main{
   text-transform: uppercase;
 }
 header h1{
-  margin: 50px;
+  margin-bottom: -30px;
   text-align: center;
-  font-size: 100px;
+  font-size: 130px;
   font-family: 'La Belle Aurore', cursive;
 }
 
@@ -163,23 +163,53 @@ main hr, p{
   text-align: center;
 }
 
-main h2{
-  padding-top: 30px;
+#fave-text{
+  font-family: 'Afacad', sans-serif;
+  margin-top: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+#fave-text h2{
+  margin-bottom: 0;
+  font-size:50px;
+}
+
+#fave-text h4{
+  margin-top: -10px;
+  font-weight: 200;
+  font-size:25px;
 }
 
 .fave-container {
+  padding: 20px;
+  padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
   gap: 30px;
   height: 100%;
   }
-  
+
+
+  .content p{
+    font: 500 15px 'Quicksand', sans-serif;
+  }
+  .content p b{
+    font-size: 18px;
+  }
 .image {
+  box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
       min-width: 200px;
+      border-radius: 12px;
   }
 
 .image img{
+  border-radius: 12px;
   max-width: 100%;
   display: block;
 }
