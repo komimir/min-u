@@ -13,10 +13,15 @@ html {
 
 body {
   font-family: sans-serif;
-  }
-  body > *:not(nav) {
-    margin: 30px;
-  }
+}
+
+body > :not(nav):not(footer) {
+  margin: 20px; /* Reset margin for all direct children of body except nav and footer */
+}
+
+nav *, footer * {
+  margin: 0; /* Reset margin for all descendants of nav and footer */
+}
   
 nav {
   display: flex;
@@ -159,13 +164,6 @@ header a:hover{
   text-decoration: underline;
 }
 
-main hr, p{
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  text-align: center;
-}
-
 #fave-text{
   font-family: 'Afacad', sans-serif;
   margin-top: 50px;
@@ -297,8 +295,10 @@ main hr, p{
 
 footer{
   text-align:center;
+  padding-bottom: 5px;
   font-family: 'Afacad', sans-serif;
-  }
+  background-color: #FEB039;
+}
 
   ::-webkit-scrollbar {
     width: 14px; 
