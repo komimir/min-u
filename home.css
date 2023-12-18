@@ -178,9 +178,14 @@ main h2{
 }
 
 #catalog{
+  margin-top: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font: 50px 'Afacad', sans-serif;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .catalog-container{
@@ -190,13 +195,16 @@ main h2{
   align-items: center;
   max-width: 100%;
 }
+
 .rectangle{
+  background-color: rgb(231, 68, 11) ;
   position:relative;
   width: 100%;
   height: 150px;
   overflow: hidden;
   margin: 10px;
-  border: 2px solid #333
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0,0.3);
 }
 
 .catalog-image{
@@ -214,10 +222,14 @@ main h2{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #000; 
   text-align: center;
   font-size: 30px;
   transition: opacity 0.3 ease-in-out;
+}
+
+.catalog-text p{
+  color: #ffffff; 
+  text-shadow: 2px 2px 5px black;
 }
 
 .rectangle a {
@@ -226,12 +238,11 @@ main h2{
   height: 100%;
   text-decoration: none;
 }
-
 .rectangle:hover .catalog-image {
-  opacity: 0.5; 
+  opacity:0.5;
 }
 
-.rectangle:hover .catalog-text {
+.rectangle:hover .catalog-text:hover {
   color: #fff; 
 }
 

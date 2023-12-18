@@ -157,6 +157,7 @@ have equal heights.. */
 /* main part */
 @media (min-width: 400px){
   main{
+    margin: ;
     align-self: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
