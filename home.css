@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dawning+of+a+New+Day&family=Homemade+Apple&family=Kalnia:wght@100;200;300;400;500;600;700&family=La+Belle+Aurore&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Parisienne&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html {
     box-sizing: border-box;
   }
@@ -7,7 +10,23 @@ html {
   margin:0px;
   padding: 0px;
   color: #241c14;
+  /* border: 1px solid black;  */ /*<-- for checking*/
+  }
+
+/* google fonts not showing up issue fix? */
+body {
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
 }
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
+/*  */
 
 body {
   font-family: sans-serif;
@@ -27,26 +46,23 @@ nav {
   display: flex;
 }
 
-nav p, #filler-lane{
+nav p, .nav-item a{
+  color: #b32400;
+}
+
+nav p, #filler-lane {
   padding-left:15px;
   padding-right:15px;
   text-align: center;
   word-spacing: 10px;
   letter-spacing: 2px;
-  color: #9E5D33;
   font-weight: 700;
   font-family: 'Quicksand', sans-serif;
-}
-
-#filler-lane{
-  color: #241c14;
-  font-weight: 400;
 }
 
 #nav-logo {
   max-height:60px;
   padding: 0;
-  display: inline-block;
 }
 
 .nav-links {
@@ -58,22 +74,28 @@ nav p, #filler-lane{
 }
 
 .nav-item a{
-  margin: 2px;
-  display: inline-block;
   padding: 10px 15px;
   text-decoration: none;
-  font: bold 18px 'Montserrat', sans-serif;
-  color: #8C1D02;
+  font: 500 18px 'Montserrat', sans-serif;
   border: 2px solid transparent;
-  border-radius: 15px;
-  transition: background 0.75s ease;
-    
+  border-radius: 10px;
+  transition: background 0.2s ease-out;
   
-  &:hover {
+  &:hover{
     border: 2px solid transparent;  
     background-color:#ffc978;
-    
+    font-weight: bold;
+    color: #d82b00; 
   }
+}
+
+#here a{ 
+  pointer-events: none;
+  border-radius: 0;
+  font-weight: bold;
+  color:  #8C1D02;
+  border-bottom: 3px solid;
+  padding-bottom: 7px;
 }
 
 .dropdown {
@@ -178,14 +200,9 @@ main h2{
 }
 
 #catalog{
-  margin-top: 50px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  font: 50px 'Afacad', sans-serif;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .catalog-container{
@@ -193,18 +210,14 @@ main h2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
 }
-
 .rectangle{
-  background-color: rgb(231, 68, 11) ;
   position:relative;
-  width: 100%;
+  width: 800px;
   height: 150px;
   overflow: hidden;
   margin: 10px;
-  border-radius: 12px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0,0.3);
+  border: 2px solid #333
 }
 
 .catalog-image{
@@ -222,14 +235,10 @@ main h2{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #000; 
   text-align: center;
   font-size: 30px;
   transition: opacity 0.3 ease-in-out;
-}
-
-.catalog-text p{
-  color: #ffffff; 
-  text-shadow: 2px 2px 5px black;
 }
 
 .rectangle a {
@@ -238,21 +247,11 @@ main h2{
   height: 100%;
   text-decoration: none;
 }
+
 .rectangle:hover .catalog-image {
-  opacity:0.5;
+  opacity: 0.5; 
 }
 
-.rectangle:hover .catalog-text:hover {
+.rectangle:hover .catalog-text {
   color: #fff; 
 }
-
-@media screen and (max-width: 768px) {
-  .catalog-image {
-      height: 150px; /* Adjust height for smaller screens */
-  }
-}
-
-footer{
-  text-align:center;
-  font-family: 'Afacad', sans-serif;
-  }
