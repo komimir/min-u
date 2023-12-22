@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Craft Coffee</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dawning+of+a+New+Day&family=Homemade+Apple&family=Kalnia:wght@100;200;300;400;500;600;700&family=La+Belle+Aurore&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Parisienne&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="..\images\min-u favicon.svg">
+        <link rel="stylesheet" href="dine_in.css">
+
+    </head>
+    <body>
+        <nav>
+            <img id="nav-logo" src="..\images\min-u logo.svg" alt="min-u logo"> 
+            <p> one stop for food shops </p>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="..\home.html">Home</a></li>
+                <li class="nav-item"><a href="..\content.html">Catalog</a>
+                <ul class="dropdown">
+                        <li class="dropdown-content"><a href="..\catalog pages\bakery_catalog.html">Bakery</a></li>
+                        <li class="dropdown-content"><a href="..\catalog pages\cafe_catalog.html">Cafe</a></li>
+                        <li class="dropdown-content"><a href="..\catalog pages\dine-in_catalog.html">Dine-in</a></li>
+                        <li class="dropdown-content"><a href="..\catalog pages\fastfood_catalog.html">Fastfood Chain</a></li>
+                        <li class="dropdown-content"><a href="..\catalog pages\pub_catalog.html">Pub</a></li>
+                        <li class="dropdown-content"><a href="..\catalog pages\stall_catalog.html">Stall</a></li>
+                </ul>
+                <li class="nav-item" ><a href="..\about.html">About</a></li>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="shopname-container">
+                <img src="https://drive.google.com/uc?export=view&id=1JVJlxU5OeENOzW5uh2LSjpThMsEEfw2O" alt="Craft Coffe">
+                    <div>
+                    <h1>Craft Coffee</h1>
+                        <div>
+                        <p><strong>Location:</strong> San Francisco St. </p>
+                        <p><strong>Opening Hours:</strong></p>
+                            <ul>
+                                <li> Mon-Sun | 8AM - 10PM </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Photos')" id="defOpen">Photos</button>
+                    <button class="tablinks" onclick="openTab(event, 'Map')">Map</button>
+                </div>
+
+            
+                <div id="Photos" class="tabcontent">
+                    <article class="photos-container">
+                        <div class="flex-container">
+                            <div class="image-container">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipOIseUMZJUOTcMxSWxqe5rFQugt-90ywMSuiWhY=s680-w680-h510" alt="Menu">
+                            </div>
+                            <div class="image-container">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipNruymzCkNpPkO6663t8KvRV6UZtQOSjwem9-D0=s680-w680-h510" alt="Menu">
+                            </div>
+                            <div class="image-container">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipOn7qJgucG-dhj7YS-JENjNJhSIqlVoluEKvclB=s680-w680-h510" alt="Menu">
+                            </div>
+                            <div class="image-container">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipOn7qJgucG-dhj7YS-JENjNJhSIqlVoluEKvclB=s680-w680-h510   " alt="Menu">
+                            </div>
+                            <div class="image-container">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipO2wpxk4QPImOsAaovjvSmm5steHJrPbAPKbTf5=s680-w680-h510" alt="Menu">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="Map" class="tabcontent">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2901673373626!2d125.50063697397867!3d7.092325216294015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f913bbe22ab943%3A0x69e4ae58b84fc381!2sYamashita%20Diner!5e0!3m2!1sen!2sph!4v1702707936201!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </main>
+        <footer>
+            <p>Min - U © 2023</p>
+        </footer>
+        <script src="dinein.js"></script>
+    </body>
+</html>
