@@ -56,26 +56,6 @@
                     <article class="photos-container">
                         <div class="flex-container">
 
-                            <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Menu">
-                                
-                            </div>
-                            <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Menu">
-                                
-                            </div>
-                            <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Menu">
-                            
-                            </div>
-                            <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Description 1">
-                              
-                            </div>
-                            <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Description 1">
-                              
-                            </div>
                         </div>
                     </article>
                 </div>
