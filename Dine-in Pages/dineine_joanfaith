@@ -34,15 +34,15 @@
         <main>
 
             <div class="shopname-container">
-                <img src="https://drive.google.com/uc?export=view&id=https://drive.google.com/uc?export=view&id=1VANOYO2YNDBGs_M-SKhRkE2L-DA7P84z" alt="Joan Faith's Kainan and Pizza House">
+                <img src="https://drive.google.com/uc?export=view&id=1VANOYO2YNDBGs_M-SKhRkE2L-DA7P84z" alt="Joan Faith's Kainan and Pizza House">
                     <div>
                     <h1>Joan Faith's Kainan and Pizza House</h1>
                         <div>
-                        <p><strong>Location:</strong> Purok 4, Sitio Basak, UP Road</p>
+                        <p><strong>Location:</strong>Lantana St.</p>
                         <p><strong>Opening Hours:</strong></p>
                             <ul>
                                 <li> Mon-Sat | 6AM - 9PM </li>
-                                <li>Barbecue Items start from 5PM - 9PM</li>
+                                <li>*Barbecue items start from 5PM - 9PM</li>
                             </ul>
                         </div>
                     </div>
@@ -58,31 +58,25 @@
                         <div class="flex-container">
 
                             <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Menu">
-                                
+                                <img src="https://drive.google.com/uc?export=view&id=1V9H09feNInRcw1nVfwd_6ZjqQALvDrFS" alt="Menu">
                             </div>
                             <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Menu">
-                                
+                                <img src="https://drive.google.com/uc?export=view&id=1V6C6UKudeAXtH1XOy6vE2sF332-fRUtT" alt="Menu">
                             </div>
                             <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Menu">
-                            
+                                <img src="https://drive.google.com/uc?export=view&id=1UqwODPEMvC-EYKl9HI97yr8AWWz6Zjp3" alt="Menu">
                             </div>
                             <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Description 1">
-                              
-                            </div>
+                                <img src="https://drive.google.com/uc?export=view&id=1Ummy1QAWyxCslzAoLGf_KTf1b2NFG83u" alt="Menu">
                             <div class="image-container">
-                                <img src="https://drive.google.com/uc?export=view&id=" alt="Description 1">
-                              
+                                <img src="https://drive.google.com/uc?export=view&id=1UsLcFQdFYtiZQLGkpnuIpk8SG1uu0Zhf" alt="Menu">
                             </div>
                         </div>
                     </article>
                 </div>
 
                 <div id="Map" class="tabcontent">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2901673373626!2d125.50063697397867!3d7.092325216294015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f913bbe22ab943%3A0x69e4ae58b84fc381!2sYamashita%20Diner!5e0!3m2!1sen!2sph!4v1702707936201!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d989.8254611485877!2d125.49964011980481!3d7.090966917327459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1703238664365!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
         </main>
         <footer>
