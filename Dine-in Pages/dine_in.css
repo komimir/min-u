@@ -8,13 +8,13 @@ html {
     padding: 0px;
   }
   
-  body {
-    font-family: sans-serif;
-    }
-    body > *:not(nav) {
-      margin: 30px;
-    }
-    
+  body > :not(nav):not(footer) {
+    margin: 30px; 
+  }
+  
+  nav *, footer * {
+    margin: 0; 
+  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -185,11 +185,16 @@ html {
     height: 80%;
    }
    
-   footer p{
-    font: 15px 'Quicksand', sans-serif;
-    text-align: center;
-   }
-
+   footer{
+    text-align:center;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Afacad', sans-serif;
+    background-color: #FEB039;
+    margin-top: -15px;
+  }
+  
 .tab {
   display: flex;
   justify-content: center;
