@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>McDonald's</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dawning+of+a+New+Day&family=Homemade+Apple&family=Kalnia:wght@100;200;300;400;500;600;700&family=La+Belle+Aurore&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Parisienne&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="..\images\min-u favicon.svg">
+        <link rel="stylesheet" href="dine_in.css">
+
+    </head>
+    <body>
+        <nav>
+            <img id="nav-logo" src="..\images\min-u logo.svg" alt="min-u logo"> 
+            <p> one stop for food shops </p>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="home.html">Home</a></li>
+                <li class="nav-item"><a href="content.html">Catalog</a>
+                <ul class="dropdown">
+                    <li class="dropdown-content"><a href="#">Bakery</a></li>
+                    <li class="dropdown-content"><a href="#">Cafe</a></li>
+                    <li class="dropdown-content"><a href="#">Dine-in</a></li>
+                    <li class="dropdown-content"><a href="#">Fastfood Chain</a></li>
+                    <li class="dropdown-content"><a href="#">Pub</a></li>
+                    <li class="dropdown-content"><a href="#">Stall</a></li>
+                 </ul>
+                <li class="nav-item" ><a href="about.html">About</a></li>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="shopname-container">
+                <img src="https://drive.google.com/uc?export=view&id=1n8hhO681Uw62RR6hn9JomtVmClBqeZ5p" alt="McDonald's">
+                    <div>
+                    <h1>McDonald's</h1>
+                        <div>
+                        <p><strong>Location:</strong> Vista Mall </p>
+                        <p><strong>Opening Hours:</strong></p>
+                            <ul>
+                                <li> Mon-Sun | 9AM - 10PM </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Photos')" id="defOpen">Photos</button>
+                    <button class="tablinks" onclick="openTab(event, 'Map')">Map</button>
+                </div>
+
+            
+                <div id="Photos" class="tabcontent">
+                    <article class="photos-container">
+                        <div class="flex-container">
+
+                            <div class="image-container">
+                                <img src="https://www.google.com/maps/place/McDonald's/@7.0864376,125.5076867,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMYcY-CV0O2u7cr7w7_a0GYid1ILDhgje58MeBF!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMYcY-CV0O2u7cr7w7_a0GYid1ILDhgje58MeBF%3Dw203-h114-k-no!7i2048!8i1152!4m7!3m6!1s0x32f913b0b09f739f:0xb851f8af8fb40178!8m2!3d7.0867888!4d125.5080958!10e5!16s%2Fg%2F11tk9q9s7m?entry=ttu" alt="Menu"> 
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+
+                <div id="Map" class="tabcontent">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.337704125518!2d125.50552087397864!3d7.0867941163633335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f913b0b09f739f%3A0xb851f8af8fb40178!2sMcDonald&#39;s!5e0!3m2!1sen!2sph!4v1703973129267!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </main>
+        <footer>
+            <p>Min - U © 2023</p>
+        </footer>
+        <script src="dinein.js"></script>
+    </body>
+</html>
