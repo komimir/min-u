@@ -79,6 +79,7 @@ header a:hover{
   text-decoration: underline;
 }
 
+/* faves bar  */
 #fave-text{
   font-family: 'Afacad', sans-serif;
   margin-top: 50px;
@@ -112,16 +113,19 @@ header a:hover{
   }
 
   .content p{
-    
     font: 500 15px 'Quicksand', sans-serif;
   }
-  .content p b{
-    
+  .content p b {
     font-size: 18px;
   }
+
+#shop-name{
+  margin-top: 20px;
+}  
+
 .image {
   box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
-  min-width: 200px;
+  min-width: 275px;
   border-radius: 12px;
   transition: 0.2s;
   padding: 10px;
@@ -137,6 +141,8 @@ header a:hover{
   max-width: 100%;
   display: block;
 }
+
+/* catalog */
 
 #catalog{
   margin-top: 50px;
