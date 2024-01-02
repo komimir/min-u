@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Basic Tea Cafe</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dawning+of+a+New+Day&family=Homemade+Apple&family=Kalnia:wght@100;200;300;400;500;600;700&family=La+Belle+Aurore&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Parisienne&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="..\images\min-u favicon.svg">
+        <link rel="stylesheet" href="dine_in.css">
+
+    </head>
+    <body>
+        <nav>
+            <img id="nav-logo" src="..\images\min-u logo.svg" alt="min-u logo"> 
+            <p> one stop for food shops </p>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="home.html">Home</a></li>
+                <li class="nav-item"><a href="content.html">Catalog</a>
+                <ul class="dropdown">
+                    <li class="dropdown-content"><a href="#">Bakery</a></li>
+                    <li class="dropdown-content"><a href="#">Cafe</a></li>
+                    <li class="dropdown-content"><a href="#">Dine-in</a></li>
+                    <li class="dropdown-content"><a href="#">Fastfood Chain</a></li>
+                    <li class="dropdown-content"><a href="#">Pub</a></li>
+                    <li class="dropdown-content"><a href="#">Stall</a></li>
+                 </ul>
+                <li class="nav-item" ><a href="about.html">About</a></li>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="shopname-container">
+                <img src="https://drive.google.com/uc?export=view&id=1g7qhYaX3TBQYg8jWhdHE0kzJNiNoWfsJ" alt="The Basic Tea Cafe">
+                    <div>
+                    <h1>The Basic Tea Cafe</h1>
+                        <div>
+                        <p><strong>Location:</strong>Golden Shower St.</p>
+                        <p><strong>Opening Hours:</strong></p>
+                            <ul>
+                                <li> Mon-Sun | 11:30AM - 9PM </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Photos')" id="defOpen">Photos</button>
+                    <button class="tablinks" onclick="openTab(event, 'Map')">Map</button>
+                </div>
+
+            
+                <div id="Photos" class="tabcontent">
+                    <article class="photos-container">
+                        <div class="flex-container">
+
+                            <div class="image-container">
+                                <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.6435-9/194689661_188596599806341_4007672689276714638_n.jpg?stp=cp0_dst-jpg_e15_p480x480_q65&_nc_cat=102&ccb=1-7&_nc_sid=512d91&_nc_ohc=vI64NbqeWE4AX9CBcHr&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfAYQb4dx3yab4gnz1diYXgf8mqC1ND95FMtFGg9g896rQ&oe=65BB9F79" alt="Menu">
+                            </div>
+
+                            <div class="image-container">
+                                <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t1.6435-9/180752996_170498144949520_8186033256797324457_n.jpg?stp=cp0_dst-jpg_e15_q65_s480x480&_nc_cat=107&ccb=1-7&_nc_sid=512d91&_nc_ohc=bTR91zweb8cAX_Vj8fJ&_nc_ht=scontent.fdvo2-2.fna&oh=00_AfB_Lo0fhCXqct2EoFXk8fdyyGRAgn96HiH76uyOAFbb8A&oe=65BB9C45" alt="Menu">
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+
+                <div id="Map" class="tabcontent">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3176639182984!2d125.50496889999998!3d7.0891264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f9133bb6732fcd%3A0xb917f4d7419f8427!2sThe%20Basic%20Tea%20Caf%C3%A9!5e0!3m2!1sen!2sph!4v1704210606856!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </main>
+        <footer>
+            <p>Min - U © 2023</p>
+        </footer>
+        <script src="dinein.js"></script>
+    </body>
+</html>
