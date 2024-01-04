@@ -5,7 +5,7 @@ top: 0;
 z-index: 1;
 justify-content: space-between;
 align-items: center;
-background-color: #ffffffb2;
+background-color: #ffffff;
 padding: 10px 80px 10px 80px;
 margin: 0;
 width: 100%;
@@ -40,22 +40,23 @@ text-decoration: none;
 font: bold 18px 'Montserrat', sans-serif;
 color: #8C1D02;
 border: 2px solid transparent;
-border-radius: 15px;
+border-radius: 10px;
 transition: background 0.2s ease-out;
 
     &:hover {
         border: 2px solid transparent;  
-        background-color: #ff9b49;
-        color: #fff1ed;
+        background-color: #ffe7c9f8;
+        color: #d12a00e7;
+    }
+    &:active {
+        background-color: #fdd5a4;
     }
 }
 
-#here a{
-pointer-events: none;
-border-radius: 0;
+#here{
 color: #AC1507;
-border-bottom: 3px solid;
-padding-bottom: 7px;
+border: 1px solid #ffe7c9f8;
+background-color: #ffe7c977;
 }
 
 .dropdown {
@@ -77,9 +78,11 @@ display: block;
 text-align: left;
 font-weight: 500;
 color: #fff1ed;
-&:hover{
-    font-weight: bold;
-}
+    &:hover{
+        font-weight: bold;
+        background-color: #ff9b49;
+        color: #fff1ed;
+    }
 }
 
 .nav-item:hover .dropdown {
