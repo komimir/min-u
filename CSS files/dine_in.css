@@ -15,16 +15,23 @@ html {
   main > *:not(.tabcontent){
     padding: 0% 2% 0% 2%;
     align-self: center;
+
   }
+
 
   .shopname-container {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    
+    margin:13% 3% 5% 3%;
+  }
+
+  .shopname-container>div{
+    margin-left:7%;
   }
 
   .shopname-container img {
+    border-radius: 20px;
+    max-width: 400px;
     width: 50%;
     height: auto;
     margin-right: 20px;
