@@ -40,7 +40,8 @@ html {
   .feature-item {
     box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    min-width: 200px;
+    min-width: 220px;
+    max-height: auto;
     transition: 0.2s;
     text-decoration: none;
     color:black;
@@ -61,12 +62,20 @@ html {
   }
 
   .feature-item-text p{
+    margin-top: 7%;
+    margin-bottom: 7%;
     font-family: 'Quicksand', sans-serif;
     color:black;
     text-align: center;
   }
+
+  .feature-item-text h3{
+    font-size: 23px;
+    margin-bottom: 7%;
+  }
   
   .feature-item img{
+    margin: auto;
     border-radius: 8px;
     max-width: 100%;
     height:40%;
