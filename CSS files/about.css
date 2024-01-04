@@ -172,10 +172,98 @@ html {
     text-align: center;
   }
 
-  #contact h4{
-    margin-bottom: 15px;
-    font: 600 30px 'Montserrat', sans-serif;
+  #people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+  
+  #people h3 {
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+  
+  .person-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+  .person {
+    text-align: center;
+    margin: 0 20px; 
+    flex: 1 1 200px; 
+    max-width: 300px; 
+    margin-bottom: 20px; 
+  }
+  
+  .person img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;; 
+  }
+  
+  .person h4 {
+    font: 600 18px 'Quicksand', sans-serif;
+    margin-top: 5px; 
+  }
+  
+  @media screen and (max-width: 600px) {
+    .person {
+      flex-basis: calc(50% - 20px); 
+      max-width: none;
+    }
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #contact label{
+    font: 600 18px 'Quicksand', sans-serif;
+  }
+
+  #contact h3 {
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Adjust max width as needed */
+    padding: 0 20px; /* Add padding for better layout */
+  }
+  
+  form label, form input, form textarea {
+    width: 150%;
+    margin-bottom: 10px; /* Adjust margin between form elements */;
+    resize: none;
+  }
+  
+  form textarea{
+    height: 200px;
+  }
+  
+  #contact form input, #contact form textarea {
+    font: 500 15px 'Quicksand' , sans-serif;
+    padding: 5px 10px;
+}
+
+  #contact button{
+    margin-top: 10px;
+    font: 600 15px 'Quicksand', sans-serif;
+    padding: 5px 20px;
+  }
+
+  #contact p{
+    margin-top: -10px;
   }
 
   footer{
