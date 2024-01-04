@@ -51,6 +51,7 @@ html {
 
 .flex-container {
     display: inline-flex;
+    align-items: center;
     flex-direction: row;
     padding: 20px; 
 }
@@ -66,6 +67,7 @@ html {
     margin-bottom: 5px; 
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
+    object-fit: cover
 }
 
 .image-text {
@@ -78,7 +80,7 @@ html {
   .flex-container img:hover {
     transform: scale(1.05);
   }
-  
+
   #Map {
     position: relative;
     width: 100%;
